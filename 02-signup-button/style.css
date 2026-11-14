@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.signup-button {
+    width: 120px;
+    height: 40px;
+    background-color: #0066FF;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #0047B3;
+}
